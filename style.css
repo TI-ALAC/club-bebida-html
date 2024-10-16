@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'BlockGothicRR';
+    src: url(fonts/BlockGothicRR-MediumExtraCond.otf);
+    font-weight: regular;
+}
+
+#contenido3 {
+    background-color: black;
+}
+
+#contenido4 {
+    background-color: black;
+}
+
+#contenido5 {
+    background-color: black;
+}
+
+#contenido6 {
+    background-color: black;
+}
+
+#contenido7 {
+    background-color: black;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#pozoUnidad {
+    font-size: 122pt;
+    font-family: 'BlockGothicRR', sans-serif;
+    color: #FFF;
+    left: 32%;
+    top: 30%;
+    position: absolute;
+}
+
+.millon {
+    font-size: 122pt;
+    font-family: 'BlockGothicRR', sans-serif;
+    color: #FFF;
+    left: 15%;
+    top: 30%;
+    position: absolute;
+}
+
+.dat {
+    font-size: 122pt;
+    font-family: 'BlockGothicRR', sans-serif;
+    color: #FFF;
+    left: 15%;
+    top: 30%;
+    position: absolute;
+}
+
+
+/* 768x384 */
+@media only screen and (max-width: 768px) {
+
+    .millon {
+        font-size: 33pt !important;
+        font-family: 'Roboto';
+        color: #FFF !important;
+        left: 39%;
+        top: 61%;
+        font-style: normal;
+        position: absolute;
+    }
+
+    .dat {
+        font-size: 90pt !important;
+        font-family: 'BlockGothicRR';
+        color: #FFF;
+        left: 6% !important;
+        top: 20%;
+        position: absolute;
+    }
+
+    .millon2 {
+        font-size: 27pt !important;
+        font-family: 'Roboto';
+        color: #FFF ;
+        left: 39% !important;
+        top: 61%;
+        font-style: normal;
+        position: absolute;
+    }
+
+    .dat2 {
+        font-size: 90pt !important;
+        font-family: 'BlockGothicRR';
+        color: #FFF;
+        left: 39% !important;
+        top: 28%;
+        position: absolute;
+    }
+}
+
+/* 768x384 */
+@media only screen and (max-width: 960px) {
+
+    .millon {
+        font-size: 38pt;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        left: 6%;
+        top: 1%;
+        position: absolute;
+    }
+
+    .dat {
+        font-size: 100pt;
+        font-family: 'BlockGothicRR';
+        color: #FFF;
+        left: 6%;
+        top: 20%;
+        position: absolute;
+    }
+
+    .millon2 {
+        font-size: 30pt;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        left: 40%;
+        top: 19%;
+        position: absolute;
+    }
+
+    .dat2 {
+        font-size: 95pt;
+        font-family: 'BlockGothicRR';
+        color: #FFF;
+        left: 40%;
+        top: 27%;
+        position: absolute;
+    }
+
+}
